@@ -1,5 +1,5 @@
 import turtle
-import random
+#import random
 
 q = int()
 
@@ -443,6 +443,7 @@ a5.goto(410, -315)
 
 def end():
     text.clear()
+    text1.clear()
     text.goto(-300, 50)
     text.write('congrats, you completed the quiz', font=('calibri', 30))
     text.goto(-250, -50)
